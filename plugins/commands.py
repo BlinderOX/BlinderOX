@@ -103,7 +103,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Bot Updates", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("Bot Updates", url="https://t.me/MovieSearcherXBotUpdates")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -195,7 +195,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/Mo_Tech_YT'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/MovieSearcherXBotUpdates'),
             InlineKeyboardButton('Video', url=f'{TUTORIAL}')
         ]
         ]
