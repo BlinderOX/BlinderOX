@@ -67,7 +67,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🔴Bot Update Channel🔴', url=f'https://t.me/MovieSearcherXBotUpdates')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -195,8 +195,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/MovieSearcherXBotUpdates'),
-            InlineKeyboardButton('Video', url=f'{TUTORIAL}')
+            InlineKeyboardButton('📣 Update Channel 📣', url='https://t.me/MovieSearcherXBotUpdates'),
+            InlineKeyboardButton('🤖 Bot Updates 🤖 ', url=f'{TUTORIAL}')
         ]
         ]
     await message.reply(text=f"<b>Developer : <a href='https://t.me/Grand_boy_0'>BlinderOX</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/MovieSearcherXBotUpdates'>MovieSearcherXBot</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
